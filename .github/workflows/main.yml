@@ -7,4 +7,4 @@ jobs:
         steps:
           - name: Run Build
             id: compile_container
-            uses: actions/pytorch_container@default
+            uses: actions/pytorch_container@master
