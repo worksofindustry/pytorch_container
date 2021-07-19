@@ -49,7 +49,7 @@ docker run --rm -t -i --privileged \
   -e AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxxxxx \
   -e AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
   -e AWS_STORAGE_BUCKET_NAME=example \
-  docker.io/panubo/s3fs:1.87 ls /mnt
+  your_container_repo:tag ls /mnt
 ```
 
 
