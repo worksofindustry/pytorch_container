@@ -1,0 +1,6 @@
+# action.yml
+name: 'Build Container'
+description: 'Builds Pytorch container'
+runs:
+    using: 'docker'
+    image: 'docker://python:3.8.10-slim-buster'
