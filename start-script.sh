@@ -11,4 +11,5 @@ sleep 5
 
 # Run Predictions
 
-python /app/data/src/your_file.py
+#python /app/data/src/your_file.py
+echo "Testing"
