@@ -5,6 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         name: Build PyTorch Container
         steps:
-            - name: Run Build
+          - name: Run Build
             id: compile container
             uses: actions/pytorch_container
