@@ -42,7 +42,7 @@ Docker image for [s3fs fuse](https://github.com/s3fs-fuse/s3fs-fuse).
 - `S3FS_ARGS` - additional s3fs mount arguments
 - `DEBUG` - enable DEBUG mode.
 
-### Usage example
+## Usage example
 
 ```bash
 docker run --rm -t -i --privileged \
