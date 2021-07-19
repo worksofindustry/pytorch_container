@@ -1,0 +1,22 @@
+# base ----------------------------------------
+numpy
+opencv-python
+
+# opencv package for server (headless) environments (such as Docker, cloud environments etc.), no GUI library dependencies
+# opencv-contrib-python-headless //container was unable to import cv2 using this library
+Pillow
+PyYAML>=5.3.1
+#scipy>=1.4.1
+#torch
+#torchvision
+#torch>=1.7.0
+#torchvision>=0.8.1
+tqdm>=4.41.0
+boto3
+requests
+matplotlib
+scipy
+seaborn
+
+# plotting ------------------------------------
+pandas

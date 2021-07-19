@@ -1,0 +1,2 @@
+#!/bin/bash
+s3fs $S3_UPLOADS $S3_MOUNT_UPLOADS && s3fs $S3_PROCESSED $S3_MOUNT_PROCESSED && s3fs $S3_SRC $S3_MOUNT_SRC && echo "S3 Mounted"
